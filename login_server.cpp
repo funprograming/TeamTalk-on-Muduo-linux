@@ -27,6 +27,7 @@ int main(int argc, char* argv[])
 		printf("Server Build: %s %s\n", __DATE__, __TIME__);
 		return 0;
 	}
+	
 	log("pid:%d\n",getpid());
 
 	// signal(SIGPIPE, SIG_IGN);
